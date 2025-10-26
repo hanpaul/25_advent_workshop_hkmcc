@@ -36,10 +36,30 @@ const EventDetails = () => {
                 <p className="text-sm">1523 McLaughlin Ave, San Jose, CA</p>
             </DetailCard>
         </div>
-        <div className="text-center mt-12 text-gray-300 max-w-3xl mx-auto">
-            <h3 className="text-2xl font-serif font-semibold text-amber-200 mb-4">Learn how to strengthen your family, raise faith-filled children, and build God-centered relationships.</h3>
-            <p className="text-lg">
-                For English-speaking adults: singles, married couples, parents, and empty nesters. Join us for an afternoon of growth and fellowship.
+        <div className="text-center mt-16 text-gray-300 max-w-4xl mx-auto">
+            <h3 className="text-3xl font-serif font-semibold text-amber-200 mb-8">What You Will Learn</h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+                <div className="bg-white/10 p-6 rounded-lg border border-white/10">
+                    <h4 className="font-bold text-xl text-amber-100 mb-2">For Married Couples</h4>
+                    <p className="text-gray-300">
+                        Discover key ways to improve your spousal relationship from a Catholic perspective. Move beyond being 'roommates' and learn to build a thriving, faith-centered partnership.
+                    </p>
+                </div>
+                <div className="bg-white/10 p-6 rounded-lg border border-white/10">
+                    <h4 className="font-bold text-xl text-amber-100 mb-2">For Parents</h4>
+                    <p className="text-gray-300">
+                        Gain insights on how to raise healthy and faith-filled children. Understand how to navigate modern challenges like high expectations, devices, and screen time.
+                    </p>
+                </div>
+                <div className="bg-white/10 p-6 rounded-lg border border-white/10">
+                    <h4 className="font-bold text-xl text-amber-100 mb-2">For Singles</h4>
+                    <p className="text-gray-300">
+                        Learn how to build God-centered relationships in all aspects of your life—friendships, dating, and with parents.
+                    </p>
+                </div>
+            </div>
+            <p className="mt-8 text-lg text-gray-400">
+                This workshop is for all English-speaking adults: singles, married couples, parents, and empty nesters. Join us for an afternoon of growth and fellowship.
             </p>
         </div>
       </div>

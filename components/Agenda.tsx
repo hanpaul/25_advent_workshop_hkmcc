@@ -1,13 +1,12 @@
-
 import React from 'react';
 import { type AgendaItem } from '../types';
 
 const agendaItems: AgendaItem[] = [
   { time: "1:00 PM", title: "Welcome & Introduction", description: "Opening prayer, housekeeping, and overview of the day." },
-  { time: "1:30 PM", title: "Talk 1: Theology of the Family", description: "Understanding the family as the domestic church." },
-  { time: "2:15 PM", title: "Talk 2: Challenges with Families Today", description: "Interactive discussion on modern-day challenges for families." },
-  { time: "3:00 PM", title: "Snack Break", description: "Enjoy fellowship with coffee and light refreshments.", isBreak: true },
-  { time: "3:15 PM", title: "Talk 3: Applications on Building Relationships", description: "Practical advice for singles, couples, and parents." },
+  { time: "1:30 PM", title: "Session 1: Theology of the Family", description: "Understanding the family as the domestic church." },
+  { time: "2:15 PM", title: "Session 2: Challenges with Families Today", description: "Interactive discussion on modern-day challenges for families." },
+  { time: "3:00 PM", title: "Break", description: "Enjoy fellowship with coffee and light refreshments.", isBreak: true },
+  { time: "3:15 PM", title: "Session 3: Building Relationships", description: "Practical advice for singles, couples, and parents." },
   { time: "4:00 PM", title: "Wrap Up & Q&A", description: "An opportunity to ask questions and share insights." },
   { time: "4:20 PM", title: "Closing Prayer", description: "Concluding our workshop with a final prayer." },
 ];
