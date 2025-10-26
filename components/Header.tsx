@@ -4,8 +4,12 @@ import { BANNER_IMAGE_URL, REGISTRATION_URL } from '../constants';
 const Header = () => {
   return (
     <header 
-      className="relative w-full h-[60vh] md:h-[70vh] bg-cover bg-center bg-no-repeat flex items-center justify-center text-center text-white p-4"
-      style={{ backgroundImage: `url(${BANNER_IMAGE_URL})` }}
+      className="relative w-full h-[60vh] md:h-[70vh] bg-no-repeat flex items-center justify-center text-center text-white p-4 animate-scroll-left"
+      style={{ 
+        backgroundImage: `url(${BANNER_IMAGE_URL})`,
+        backgroundSize: '150% 150%',
+        backgroundPosition: 'center',
+      }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       <div className="relative z-10 flex flex-col items-center">

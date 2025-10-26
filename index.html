@@ -16,6 +16,13 @@
       h1, h2, h3, .font-serif {
         font-family: 'Playfair Display', serif;
       }
+      @keyframes scroll-left {
+        0% { background-position: 0% 50%; }
+        100% { background-position: 100% 50%; }
+      }
+      .animate-scroll-left {
+        animation: scroll-left 60s linear infinite alternate;
+      }
     </style>
   <script type="importmap">
 {
