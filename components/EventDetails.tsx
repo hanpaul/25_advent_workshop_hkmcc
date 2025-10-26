@@ -1,5 +1,7 @@
+
 import React from 'react';
 import { CalendarIcon, ClockIcon, LocationIcon } from './icons';
+import { LOCATION_URL } from '../constants';
 
 // Fix: Define props type for DetailCard separately to resolve TypeScript error.
 type DetailCardProps = {
@@ -33,7 +35,14 @@ const EventDetails = () => {
             </DetailCard>
             <DetailCard icon={<LocationIcon className="h-10 w-10" />} title="Location">
                 <p>Holy Korean Martyrs Catholic Church</p>
-                <p className="text-sm">1523 McLaughlin Ave, San Jose, CA</p>
+                <a 
+                    href={LOCATION_URL} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="text-sm underline hover:text-violet-700 transition-colors"
+                >
+                    1523 McLaughlin Ave, San Jose, CA
+                </a>
             </DetailCard>
         </div>
         <div className="text-center mt-16 text-gray-700 max-w-4xl mx-auto">

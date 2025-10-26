@@ -4,10 +4,10 @@ import { BANNER_IMAGE_URL, REGISTRATION_URL } from '../constants';
 const Header = () => {
   return (
     <header 
-      className="relative w-full h-[60vh] md:h-[70vh] bg-no-repeat flex items-center justify-center text-center text-white p-4 animate-scroll-left"
+      className="relative w-full h-[50vh] bg-no-repeat flex items-center justify-center text-center text-white p-4 animate-scroll-left"
       style={{ 
         backgroundImage: `url(${BANNER_IMAGE_URL})`,
-        backgroundSize: '150% 150%',
+        backgroundSize: '150% auto',
         backgroundPosition: 'center',
       }}
     >
@@ -26,7 +26,7 @@ const Header = () => {
           href={REGISTRATION_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-8 px-10 py-4 bg-violet-500 text-white font-bold rounded-lg shadow-xl hover:bg-violet-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-violet-500 transition-transform transform hover:scale-105"
+          className="mt-6 px-10 py-4 bg-violet-500 text-white font-bold rounded-lg shadow-xl hover:bg-violet-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-violet-500 transition-transform transform hover:scale-105"
         >
           Register Now
         </a>
